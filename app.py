@@ -34,7 +34,7 @@ st.set_page_config(
 
 st.title("EDP de transport - Analyse des schémas numériques")
 st.caption(
-    "Équation de transport 1D : **∂u/∂t + c · ∂u/∂x = 0** - "
+    "Équation de transport 1D : **∂u/∂t + c · ∂u/∂x = 0**"
 )
 
 
