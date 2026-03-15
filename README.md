@@ -1,5 +1,7 @@
 # EDP de transfert - Schémas aux différences finies
 
+**[▶ Live Dashboard](https://transport-pde-solver.streamlit.app/)**
+
 Implémentation et analyse comparative de quatre schémas aux différences finies pour l'équation de transport 1D, avec un dashboard interactif pour explorer la stabilité et la convergence.
 
 ## C'est quoi ce projet
@@ -47,8 +49,6 @@ Le dashboard Streamlit propose quatre vues :
 - **Benchmark** : tableau comparatif L1/L2/L∞/CPU avec mise en évidence automatique des meilleurs scores.
 - **Convergence** : graphe log-log avec estimation empirique de l'ordre numérique qui permet de vérifier que Lax-Wendroff atteint effectivement l'ordre 2 sur maillage raffiné.
 - **Stabilité** : heatmap amplitude × CFL, détection automatique des explosions numériques.
-
-**[▶ Live Dashboard](link)**
 
 ## Limites
 
