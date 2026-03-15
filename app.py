@@ -214,8 +214,7 @@ with tab2:
         mask = (
             (df["profile"] == profile_b) &
             (df["cfl"].between(cfl_b - tol, cfl_b + tol)) &
-            (df["scheme"].isin(schemes_selected)) &
-            df["stable"]
+            (df["scheme"].isin(schemes_selected))
         )
         sub = df[mask].copy()
 
