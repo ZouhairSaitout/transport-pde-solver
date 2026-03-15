@@ -32,10 +32,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.title("Transport PDE - Analyse des schémas numériques")
+st.title("EDP de transport - Analyse des schémas numériques")
 st.caption(
     "Équation de transport 1D : **∂u/∂t + c · ∂u/∂x = 0** - "
-    "Zouhair SAITOUT · Polytech Nice Sophia · 2026"
 )
 
 
